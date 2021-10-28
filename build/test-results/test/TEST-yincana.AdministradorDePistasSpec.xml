@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="yincana.AdministradorDePistasSpec" tests="7" skipped="0" failures="0" errors="0" timestamp="2021-10-28T16:09:39" hostname="DESKTOP-THMRC3G" time="0.052">
+  <properties/>
+  <testcase name="Obtener nueva pista: primera vez" classname="yincana.AdministradorDePistasSpec" time="0.026"/>
+  <testcase name="Obtener nueva pista: segunda vez" classname="yincana.AdministradorDePistasSpec" time="0.002"/>
+  <testcase name="Obtener nueva pista: tercera vez" classname="yincana.AdministradorDePistasSpec" time="0.002"/>
+  <testcase name="Obtener pistas del jugador: sin pistas" classname="yincana.AdministradorDePistasSpec" time="0.006"/>
+  <testcase name="Obtener pistas del jugador: una pista obtenida" classname="yincana.AdministradorDePistasSpec" time="0.002"/>
+  <testcase name="Obtener pistas del jugador: dos pistas obtenidas" classname="yincana.AdministradorDePistasSpec" time="0.002"/>
+  <testcase name="Obtener pistas del jugador: tres pistas obtenidas" classname="yincana.AdministradorDePistasSpec" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

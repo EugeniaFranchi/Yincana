@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="yincana.PistaSpec" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-10-28T16:09:39" hostname="DESKTOP-THMRC3G" time="0.003">
+  <properties/>
+  <testcase name="No ayudó a ningun jugador" classname="yincana.PistaSpec" time="0.001"/>
+  <testcase name="Ayudó a un jugador" classname="yincana.PistaSpec" time="0.001"/>
+  <testcase name="Ayudar a un jugador devuelve la pista" classname="yincana.PistaSpec" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

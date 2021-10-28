@@ -1,0 +1,6 @@
+#Thu, 28 Oct 2021 13:09:29 -0300
+
+info.app.version=0.1
+info.app.name=Yincana
+grails.env=test
+info.app.grailsVersion=5.0.0
