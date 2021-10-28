@@ -1,8 +1,8 @@
 package yincana
 
 class Locacion {
-    Float latitud
-    Float longitud
+    BigDecimal latitud
+    BigDecimal longitud
 
     static constraints = {
         latitud nullable: false, blanck: false

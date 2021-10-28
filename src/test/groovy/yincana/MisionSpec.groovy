@@ -6,6 +6,7 @@ import spock.lang.Specification
 class MisionSpec extends Specification implements DomainUnitTest<Mision> {
     Jugador mariana = new Jugador(
         nombre: 'Mariana',
+        creados: [],
         ganados: []
     )
 
@@ -24,16 +25,15 @@ class MisionSpec extends Specification implements DomainUnitTest<Mision> {
 
     def setup() {
         Mision mision = new Mision(
-            titulo: 'Los piratas', 
-            descripcion: 'Un 16 de Mayo llegaron piratas a las costas de Buenos Aires, y escondieron un gran tesoro. ¿Podrás encontrarlo?',
-            creador: mariana,
-            acertijo: 'Alto y fuerte, me quedo afuera. El sol, la lluvia, están a mi lado.',
-            respuesta: 'La respuesta correcta',
-            latitud: -34.616542734808334,
-            longitud: -58.368285215341956,
-            pista1: pista1,
-            pista2: pista2,
-            pista3: pista3 
+            'Los piratas', 
+            'Un 16 de Mayo llegaron piratas a las costas de Buenos Aires, y escondieron un gran tesoro. ¿Podrás encontrarlo?',
+            'Alto y fuerte, me quedo afuera. El sol, la lluvia, están a mi lado.',
+            'La respuesta correcta',
+            -34.616542734808334,
+            -58.368285215341956,
+            pista1,
+            pista2,
+            pista3 
         )
         return mision
     }
@@ -55,7 +55,7 @@ class MisionSpec extends Specification implements DomainUnitTest<Mision> {
             !mision.resolver('La respuesta incorrecta')
     }
 
-/*    void "Obtener nueva pista: primera vez"() {
+    void "Obtener nueva pista: primera vez"() {
         when:
             Mision mision = setup()
         then:
@@ -116,5 +116,5 @@ class MisionSpec extends Specification implements DomainUnitTest<Mision> {
         then:
             pistas.size() == 3 && pistas.contains(pista1) &&
                 pistas.contains(pista2) && pistas.contains(pista3) 
-    }*/
+    }
 }

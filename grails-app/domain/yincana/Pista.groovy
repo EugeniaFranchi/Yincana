@@ -16,7 +16,9 @@ class Pista {
     }
 
     Pista ayudar(Jugador jugador){
-        ayudados << jugador
+        if (!this.ayudo(jugador)){
+            ayudados << jugador
+        }
         return this
     }
 }

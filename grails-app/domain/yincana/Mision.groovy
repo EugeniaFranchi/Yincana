@@ -1,7 +1,5 @@
 package yincana
 
-import groovy.lang.Tuple
-
 class Mision extends Juego {
     String acertijo
     String respuesta
@@ -11,12 +9,11 @@ class Mision extends Juego {
     static constraints = {
         acertijo nullable: false, blanck: false
         respuesta nullable: false, blanck: false
-        locacion nullable: false, blanck: false
-        administradorDePistas nullable: false
     }
 
-    Mision(acertijo, respuesta, latitud, longitud, pista1, pista2, pista3) {
-        println("holaaaaaaaaaaaa")
+    Mision(String titulo, String descripcion, String acertijo, String respuesta,
+        BigDecimal latitud, BigDecimal longitud, Pista pista1, Pista pista2, Pista pista3) {
+        super(titulo, descripcion)
         this.acertijo = acertijo
         this.respuesta = respuesta
         this.locacion = new Locacion(latitud: latitud, longitud: longitud)
