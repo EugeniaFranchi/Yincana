@@ -16,7 +16,6 @@ class Mision extends Juego {
     }
 
     Mision(acertijo, respuesta, latitud, longitud, pista1, pista2, pista3) {
-        println("holaaaaaaaaaaaa")
         this.acertijo = acertijo
         this.respuesta = respuesta
         this.locacion = new Locacion(latitud: latitud, longitud: longitud)
